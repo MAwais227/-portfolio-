@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal | Portfolio</title>
+    <link rel="icon" href="imgport/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b7c81bfbe4.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div id="home">
+        <div class="container">
+            <nav>
+                <h1>
+                    <span>A</span>wais. 
+                </h1>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav> 
+            <div class="header-text">
+                <p>Frontend Developer & UI/UX Designer</p>
+                <h1>Hi, I'm <span>M.Awais</span> <br>From Pakistan </h1>
+            </div>
+        </div>
+    </div>
+    </div>
+<!---------------About---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                   <div class="about-col-1">
+                    <img src="imgport/user.png" alt="">
+                   </div>
+                   <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    Hi, I'm Muhammad Awais from Layyah, Pakistan. I recently completed college, where I developed a strong interest in web development and UI/UX design. As a web developer and UI/UX designer, I specialize in frontend technologies and have learned JavaScript along with other relevant tools and technologies.
+
+                    I also have experience in developing Shopify stores and working on e-commerce projects both in Pakistan and internationally. I'm passionate about continuing to learn and grow in this field, always eager to take on new challenges and opportunities.
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>E-commerce</span><br>Products hunting and Shopify Stores Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2020 - 2021</span><br>Team lead at starApp LLC.</li>
+                            <li><span>2019 - 2020</span><br>Intership At ekart eCommerce </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>completed intermediate of Computer Science (ICS) From College</li>
+                            <!-- <li><span>2020</span><br>BBA f rom MIT ISD </li> -->
+                        </ul>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+                   
+    <!---------------services---------->
+     
+        <div id="services">
+
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>I am an expert in web development, specializing in frontend technologies. I have extensive experience with HTML, CSS, and JavaScript, which I use to create responsive and interactive web pages. Additionally, I am skilled in utilizing modern frontend libraries and frameworks to enhance user interfaces and improve overall user experience. My focus is on building efficient, user-friendly, and visually appealing websites.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I have a strong foundation in UI/UX design, using tools like Figma, Adobe XD, and Sketch. I specialize in creating intuitive and visually appealing user interfaces. Additionally, I use user research, wireframing, and prototyping tools, as well as analytics tools to optimize user experiences.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Shopify/Dropshipping</h2>
+                        <p>I have experience in Shopify store development and e-commerce. I create and customize Shopify stores to make them easy to use and attractive. I can set up product catalogs, payment options, and improve the overall shopping experience for clients both locally and internationally.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- ------------portfolio--------- -->
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="imgport/work-1.png" >
+            <div class="layer">
+                <h3>Blogging Website</h3>
+                <p>This CURD blogging website connect you to the telented people around the World.
+                    Download it from playstore</p>
+                    <a href="https://cipher.kesug.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+          </div>
+          <div class="work">
+            <img src="imgport/work-2.png">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>This app connect you to the telented people around the World.
+                    Download it from playstore</p>
+                    <a href="music.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="imgport/work-3.png">
+            <div class="layer">
+                <h3>Amazon Clone</h3>
+                <p>This app connect you to the telented people around the World.
+                    Download it from playstore</p>
+                    <a href="shop.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="see.html" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ---------------Contact------------- -->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>awaisshabbir371@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+92 3285402475</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/" target="main"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/" target="main"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/" target="main"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/" target="main"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2 ">Download CV</a>
+            </div>
+            <div class="contact-rigt">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email"placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Copyright © Awais.Made with <i class="fa-solid fa-heart"></i> by ___________</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+           var tabcontents = document.getElementsByClassName("tab-contents");
+           
+           function opentab(tabname){
+                   for(tablink of tablinks){
+                       tablink.classList.remove("active-link");
+                   }
+                   for(tabcontent of tabcontents){
+                       tabcontent.classList.remove("active-tab");
+                   }
+                   event.currentTarget.classList.add("active-link");
+                  document.getElementById(tabname).classList.add("active-tab");
+               }
+           
+           
+           </script>
+
+           <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzkfPayWdHaPdP00_XvsWeR2ahF6lsaka_Ey9JxqoauWotDxZlM8mEtG5X286FfKsHa/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg =document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+        form.reset()
+
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    
+   
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+</body>
+</html>
+
