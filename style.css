@@ -455,6 +455,8 @@ font-size: 8vmin;
       }
 #msg{
   color: chartreuse;
+  margin-top: -40px;
+  display: block;
 }
 
 
