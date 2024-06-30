@@ -201,25 +201,17 @@
            
            </script>
 
-           <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzkfPayWdHaPdP00_XvsWeR2ahF6lsaka_Ey9JxqoauWotDxZlM8mEtG5X286FfKsHa/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg =document.getElementById("msg")
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        msg.innerHTML ="Message sent successfully"
-        setTimeout(function(){
-            msg.innerHTML =""
-        },5000)
-        form.reset()
-
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx4mGSmwQpUJcD-0KydmfEdv9BqrtNKG08uhlnOD9vKYu0p-qoQJYDFoW7u6EdLFu97/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 
 <script>
 
